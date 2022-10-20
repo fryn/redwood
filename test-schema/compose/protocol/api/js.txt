@@ -1,0 +1,27 @@
+// Signature format: 3.0
+package example.redwood.compose {
+
+  public final class DiffProducingExampleSchemaWidgetFactory {
+    ctor public DiffProducingExampleSchemaWidgetFactory(error.NonExistentClass json = Json.Default, error.NonExistentClass mismatchHandler = ProtocolMismatchHandler.Throwing);
+    method public error.NonExistentClass! Button();
+    method public error.NonExistentClass! Row();
+    method public error.NonExistentClass! ScopedRow();
+    method public error.NonExistentClass! Space();
+    method public error.NonExistentClass! Text();
+    method public error.NonExistentClass! TextInput();
+    method public error.NonExistentClass! getRedwoodLayout();
+    property public error.NonExistentClass! RedwoodLayout;
+  }
+
+  public final class LayoutModifierSerializationKt {
+  }
+
+}
+
+package example.redwood.compose.redwoodlayout {
+
+  public final class LayoutModifierSerializationKt {
+  }
+
+}
+

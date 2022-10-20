@@ -1,5 +1,6 @@
 apply plugin: 'org.jetbrains.kotlin.multiplatform'
 apply plugin: 'app.cash.redwood.generator.widget'
+apply plugin: 'app.cash.redwood.build.metalava'
 
 kotlin {
   apply from: "${rootDir}/addAllTargets.gradle"

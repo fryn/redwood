@@ -1,0 +1,13 @@
+// Signature format: 3.0
+package example.redwood.widget {
+
+  public final class DiffConsumingExampleSchemaWidgetFactory<T> {
+    ctor public DiffConsumingExampleSchemaWidgetFactory(error.NonExistentClass delegate, error.NonExistentClass json = Json.Default, error.NonExistentClass mismatchHandler = ProtocolMismatchHandler.Throwing);
+    method public error.NonExistentClass! create(int kind);
+  }
+
+  public final class LayoutModifierSerializationKt {
+  }
+
+}
+

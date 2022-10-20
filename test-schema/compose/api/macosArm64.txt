@@ -1,0 +1,69 @@
+// Signature format: 3.0
+package app.cash.redwood.layout.compose {
+
+  public final class ColumnKt {
+    method @example.redwood.compose.ExampleSchemaComposable public static void Column(error.NonExistentClass padding = Padding.Zero, error.NonExistentClass overflow = Overflow.Clip, error.NonExistentClass horizontalAlignment = CrossAxisAlignment.Start, error.NonExistentClass verticalAlignment = MainAxisAlignment.Start, error.NonExistentClass layoutModifier = LayoutModifier, kotlin.jvm.functions.Function1<? super app.cash.redwood.layout.compose.ColumnScope,kotlin.Unit> children);
+  }
+
+  public sealed interface ColumnScope {
+    method public default error.NonExistentClass! grow(error.NonExistentClass, int value);
+    method public default error.NonExistentClass! horizontalAlignment(error.NonExistentClass, error.NonExistentClass alignment);
+    method public default error.NonExistentClass! padding(error.NonExistentClass, error.NonExistentClass padding);
+    method public default error.NonExistentClass! shrink(error.NonExistentClass, int value);
+  }
+
+  public final class RowKt {
+    method @example.redwood.compose.ExampleSchemaComposable public static void Row(error.NonExistentClass padding = Padding.Zero, error.NonExistentClass overflow = Overflow.Clip, error.NonExistentClass horizontalAlignment = MainAxisAlignment.Start, error.NonExistentClass verticalAlignment = CrossAxisAlignment.Start, error.NonExistentClass layoutModifier = LayoutModifier, kotlin.jvm.functions.Function1<? super app.cash.redwood.layout.compose.RowScope,kotlin.Unit> children);
+  }
+
+  public sealed interface RowScope {
+    method public default error.NonExistentClass! grow(error.NonExistentClass, int value);
+    method public default error.NonExistentClass! padding(error.NonExistentClass, error.NonExistentClass padding);
+    method public default error.NonExistentClass! shrink(error.NonExistentClass, int value);
+    method public default error.NonExistentClass! verticalAlignment(error.NonExistentClass, error.NonExistentClass alignment);
+  }
+
+}
+
+package example.redwood.compose {
+
+  public final class ButtonKt {
+    method @example.redwood.compose.ExampleSchemaComposable public static void Button(String? text, kotlin.jvm.functions.Function0<kotlin.Unit>? onClick = null, error.NonExistentClass layoutModifier = LayoutModifier);
+  }
+
+  @kotlin.annotation.Retention(AnnotationRetention.BINARY) @kotlin.annotation.Target(allowedTargets={AnnotationTarget.FUNCTION, AnnotationTarget.PROPERTY_GETTER, AnnotationTarget.TYPE, AnnotationTarget.TYPE_PARAMETER}) public @interface ExampleSchemaComposable {
+  }
+
+  public final class RowKt {
+    method @example.redwood.compose.ExampleSchemaComposable public static void Row(error.NonExistentClass layoutModifier = LayoutModifier, kotlin.jvm.functions.Function0<kotlin.Unit> children);
+  }
+
+  public sealed interface RowScope {
+    method public default error.NonExistentClass! rowVerticalAlignment(error.NonExistentClass, int direction);
+  }
+
+  public final class ScopedRowKt {
+    method @example.redwood.compose.ExampleSchemaComposable public static void ScopedRow(error.NonExistentClass layoutModifier = LayoutModifier, kotlin.jvm.functions.Function1<? super example.redwood.compose.RowScope,kotlin.Unit> children);
+  }
+
+  public final class SpaceKt {
+    method @example.redwood.compose.ExampleSchemaComposable public static void Space(error.NonExistentClass layoutModifier = LayoutModifier);
+  }
+
+  public final class TextInputKt {
+    method @example.redwood.compose.ExampleSchemaComposable public static void TextInput(String? text, error.NonExistentClass? customType, kotlin.jvm.functions.Function1<? super java.lang.String,kotlin.Unit>? onChange = null, kotlin.jvm.functions.Function1<? super error.NonExistentClass,kotlin.Unit>? onChangeCustomType = null, error.NonExistentClass layoutModifier = LayoutModifier);
+  }
+
+  public final class TextKt {
+    method @example.redwood.compose.ExampleSchemaComposable public static void Text(String? text, error.NonExistentClass layoutModifier = LayoutModifier);
+  }
+
+  public final class UnscopedLayoutModifiersKt {
+    method public static error.NonExistentClass! accessibilityDescription(error.NonExistentClass, String value);
+    method public static error.NonExistentClass! customType(error.NonExistentClass, error.NonExistentClass customType);
+    method public static error.NonExistentClass! customTypeStateless(error.NonExistentClass);
+    method public static error.NonExistentClass! customTypeWithDefault(error.NonExistentClass, error.NonExistentClass customType, String string = "sup");
+  }
+
+}
+

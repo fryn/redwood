@@ -1,0 +1,45 @@
+// Signature format: 3.0
+package example.redwood.widget {
+
+  public interface Button<T> {
+    method public void onClick(kotlin.jvm.functions.Function0<kotlin.Unit>? onClick);
+    method public void text(String? text);
+  }
+
+  public interface ExampleSchemaWidgetFactory<T> {
+    method public example.redwood.widget.Button<T> Button();
+    method public example.redwood.widget.Row<T> Row();
+    method public example.redwood.widget.ScopedRow<T> ScopedRow();
+    method public example.redwood.widget.Space<T> Space();
+    method public example.redwood.widget.Text<T> Text();
+    method public example.redwood.widget.TextInput<T> TextInput();
+    method public error.NonExistentClass! getRedwoodLayout();
+    property public abstract error.NonExistentClass! RedwoodLayout;
+  }
+
+  public interface Row<T> {
+    method public error.NonExistentClass! getChildren();
+    property public abstract error.NonExistentClass! children;
+  }
+
+  public interface ScopedRow<T> {
+    method public error.NonExistentClass! getChildren();
+    property public abstract error.NonExistentClass! children;
+  }
+
+  public interface Space<T> {
+  }
+
+  public interface Text<T> {
+    method public void text(String? text);
+  }
+
+  public interface TextInput<T> {
+    method public void customType(error.NonExistentClass? customType);
+    method public void onChange(kotlin.jvm.functions.Function1<? super java.lang.String,kotlin.Unit>? onChange);
+    method public void onChangeCustomType(kotlin.jvm.functions.Function1<? super error.NonExistentClass,kotlin.Unit>? onChangeCustomType);
+    method public void text(String? text);
+  }
+
+}
+

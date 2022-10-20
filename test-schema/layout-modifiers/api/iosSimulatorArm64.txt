@@ -1,0 +1,33 @@
+// Signature format: 3.0
+package example.redwood {
+
+  public interface AccessibilityDescription {
+    method public String getValue();
+    property public abstract String value;
+  }
+
+  public interface CustomType {
+    method public error.NonExistentClass! getCustomType();
+    property public abstract error.NonExistentClass! customType;
+  }
+
+  public interface CustomTypeStateless {
+  }
+
+  public interface CustomTypeWithDefault {
+    method public error.NonExistentClass! getCustomType();
+    method public String getString();
+    property public abstract error.NonExistentClass! customType;
+    property public abstract String string;
+  }
+
+  public interface CustomTypeWithMultipleScopes {
+  }
+
+  public interface RowVerticalAlignment {
+    method public int getDirection();
+    property public abstract int direction;
+  }
+
+}
+
