@@ -1,10 +1,10 @@
-apply plugin: 'java-library'
 apply plugin: 'org.jetbrains.kotlin.jvm'
 apply plugin: 'com.vanniktech.maven.publish'
 
 dependencies {
   api projects.redwoodSchema
   api libs.kotlin.reflect
+  api libs.kotlin.compilerEmbeddable
 
   testImplementation libs.junit
   testImplementation libs.truth
